@@ -1,0 +1,8 @@
+LET x
+x = 0
+IF (x)
+    PRINT 1
+ELSE
+    PRINT 2
+ENDIF
+RETURN 0

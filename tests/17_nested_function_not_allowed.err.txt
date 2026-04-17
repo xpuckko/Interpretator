@@ -1,0 +1,8 @@
+FUNCTION outer()
+    FUNCTION inner()
+        RETURN 1
+    DONE
+    RETURN 0
+DONE
+
+PRINT outer()

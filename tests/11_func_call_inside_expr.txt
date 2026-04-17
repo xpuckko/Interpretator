@@ -1,0 +1,6 @@
+FUNCTION add(a, b)
+    RETURN a + b
+DONE
+
+PRINT 1 + add(2, 3) * -2
+RETURN 0

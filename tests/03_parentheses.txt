@@ -1,0 +1,4 @@
+LET x
+x = (2 + 3) * 4
+PRINT x
+RETURN 0

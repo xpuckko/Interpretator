@@ -1,0 +1,27 @@
+FUNCTION min(C)
+	IF (C <= 0)
+		RETURN 0
+	ENDIF
+	LET min
+	min = 9999
+	WHILE (C > 0)
+		LET num
+		READ num
+		C=C-1
+		IF (num < min)
+			min=num
+		ENDIF
+	DONE
+	RETURN min
+DONE
+LET count
+READ count
+IF (count < 0)
+RETURN 1
+ENDIF
+
+LET min
+min = min(count)
+PRINT min
+RETURN 0
+		

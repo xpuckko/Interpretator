@@ -1,0 +1,6 @@
+FUNCTION f()
+    LET x
+    x = 1
+DONE
+
+PRINT f()

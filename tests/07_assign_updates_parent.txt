@@ -1,0 +1,7 @@
+LET x
+x = 1
+IF (1)
+    x = 9
+ENDIF
+PRINT x
+RETURN 0

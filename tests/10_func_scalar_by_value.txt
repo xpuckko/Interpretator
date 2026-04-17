@@ -1,0 +1,11 @@
+FUNCTION inc(a)
+    a = a + 1
+    RETURN a
+DONE
+
+LET x
+x = 5
+PRINT inc(x)
+PRINT x
+RETURN 0
+

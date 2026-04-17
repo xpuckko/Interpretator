@@ -1,0 +1,9 @@
+FUNCTION setFirst(a[])
+    a[0] = 42
+    RETURN 0
+DONE
+
+LET x[2]
+x[0] = 1
+setFirst(x)
+PRINT x[0]

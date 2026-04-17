@@ -1,0 +1,5 @@
+FUNCTION f(a, b)
+    RETURN a + b
+DONE
+
+PRINT f(1)

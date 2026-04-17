@@ -1,0 +1,7 @@
+LET a[3]
+LET i
+i = 2
+a[i] = 10
+PRINT a[2]
+RETURN 0
+

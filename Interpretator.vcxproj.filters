@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Token.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Statement.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser_Expr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser_Stmt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Statement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\x64\Debug\Interpretator_tests\01_let_assign_print.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\02_arithmetic_precedence.txt.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\03_parentheses.txt.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\04_if_true_false.txt.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\05_while_loop.txt.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\06_block_scope_shadowing.txt.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\07_assign_updates_parent.txt.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\08_array_basic.txt.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\09_array_index_expr.txt.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\10_func_scalar_by_value.txt.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\11_func_call_inside_expr.txt.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\12_func_array_by_address_modifies_caller.txt.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\13_func_array_param_alias_vs_local_name.txt.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\14_wrong_arg_count.err.txt.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\15_array_param_requires_array_name.err.txt.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\16_function_without_return.err.txt.txt" />
+    <Text Include="..\x64\Debug\Interpretator_tests\17_nested_function_not_allowed.err.txt.txt" />
+  </ItemGroup>
+</Project>

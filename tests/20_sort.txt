@@ -1,0 +1,40 @@
+FUNCTION BubbleSort(a[])
+    LET i
+    LET j
+    LET tmp
+
+    i = 0
+    WHILE (i < 5)
+        j = 0
+        WHILE (j < 4)
+            IF (a[j] > a[j + 1])
+                tmp = a[j]
+                a[j] = a[j + 1]
+                a[j + 1] = tmp
+            ENDIF
+            j = j + 1
+        DONE
+        i = i + 1
+    DONE
+    RETURN 0
+DONE
+
+
+LET arr[5]
+LET i
+
+i = 0
+WHILE (i < 5)
+    READ arr[i]
+    i = i + 1
+DONE
+
+BubbleSort(arr)
+
+i = 0
+WHILE (i < 5)
+    PRINT arr[i]
+    i = i + 1
+DONE
+
+RETURN 0

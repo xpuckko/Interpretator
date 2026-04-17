@@ -1,0 +1,11 @@
+FUNCTION bump(a[])
+    a[1] = a[1] + 5
+    RETURN 0
+DONE
+
+LET x[3]
+x[1] = 10
+bump(x)
+PRINT x[1]
+RETURN 0
+

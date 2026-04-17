@@ -1,0 +1,7 @@
+FUNCTION g(a[])
+    RETURN a[0]
+DONE
+
+LET x[2]
+x[0] = 7
+PRINT g(x[0])

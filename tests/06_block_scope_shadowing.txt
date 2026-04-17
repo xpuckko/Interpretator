@@ -1,0 +1,10 @@
+LET x
+x = 5
+IF (1)
+    LET x
+    x = 7
+    PRINT x
+ENDIF
+PRINT x
+RETURN 0
+

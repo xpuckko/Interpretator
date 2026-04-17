@@ -1,0 +1,26 @@
+FUNCTION Sum(C)
+	IF (C <= 0)
+		RETURN 0
+	ENDIF
+	LET sum
+	sum = 0
+	LET index
+	index = 0
+	WHILE (index < C)
+		LET num
+		READ num
+		sum = sum + num
+		index = index + 1
+	DONE
+	RETURN sum
+DONE
+LET count
+READ count
+IF (count < 0)
+RETURN 1
+ENDIF
+
+LET sum
+sum = Sum(count)
+PRINT sum
+RETURN 0
